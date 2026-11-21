@@ -1,0 +1,19 @@
+{
+  "brand_id": "CA",
+  "name": "ContextAhead",
+  "repository": "https://github.com/worksomaganesh/contxtahead",
+  "language": "English",
+  "editorial_role": "Technology intelligence, context, and analysis",
+  "core_question": "Why does this development matter, what does it connect to, and what may change?",
+  "proposed_palette_not_locked": {
+    "violet": "#7657FF",
+    "midnight": "#151426",
+    "pale_lavender": "#EDE9FF",
+    "icy_blue": "#8DDCFF"
+  },
+  "production": {
+    "primary_editor": "DaVinci Resolve",
+    "motion_graphics": "Premium, editorial, analytical"
+  },
+  "undecided": ["presenter_or_faceless_format", "final_palette", "editorial_scope"]
+}
