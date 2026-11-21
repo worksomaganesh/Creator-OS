@@ -1,0 +1,19 @@
+{
+  "brand_id": "ATW",
+  "name": "AI That Works",
+  "repository": "https://github.com/worksomaganesh/aithatworks",
+  "language": "English",
+  "editorial_role": "Practical AI implementation and workflow demonstrations",
+  "core_question": "What real problem can AI help solve, and what does a working implementation require?",
+  "proposed_palette_not_locked": {
+    "orange": "#FF5722",
+    "midnight_navy": "#111827",
+    "warm_white": "#F5F3EE",
+    "peach": "#FFB088"
+  },
+  "production": {
+    "primary_editor": "DaVinci Resolve",
+    "motion_graphics": "Premium, practical, outcome-oriented"
+  },
+  "undecided": ["presenter_or_faceless_format", "final_palette", "primary_audience_priority"]
+}
