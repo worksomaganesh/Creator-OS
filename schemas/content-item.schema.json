@@ -1,0 +1,75 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Creator OS Content Item",
+  "type": "object",
+  "required": [
+    "content_id",
+    "brand_id",
+    "working_title",
+    "status",
+    "audience_question"
+  ],
+  "properties": {
+    "content_id": {
+      "type": "string",
+      "pattern": "^(TES|ATW|CA)-[0-9]{4}-[0-9]{3,}$"
+    },
+    "brand_id": {
+      "enum": [
+        "TES",
+        "ATW",
+        "CA"
+      ]
+    },
+    "working_title": {
+      "type": "string",
+      "minLength": 3
+    },
+    "status": {
+      "type": "string"
+    },
+    "audience_question": {
+      "type": "string",
+      "minLength": 5
+    },
+    "target_audience": {
+      "type": "string"
+    },
+    "platforms": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "pillar": {
+      "type": "string"
+    },
+    "editorial_angle": {
+      "type": "string"
+    },
+    "source_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "script_path": {
+      "type": "string"
+    },
+    "storyboard_path": {
+      "type": "string"
+    },
+    "production_plan_path": {
+      "type": "string"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "updated_at": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "additionalProperties": false
+}
