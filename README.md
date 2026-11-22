@@ -125,6 +125,7 @@ Creator-OS/
 │   ├── brand-separation.md
 │   ├── research-and-evidence.md
 │   ├── production-workflow.md
+│   ├── platform-research-and-publishing.md
 │   ├── quality-gates.md
 │   └── roadmap.md
 ├── brands/
@@ -156,6 +157,9 @@ Creator-OS/
 │   ├── scriptwriter/
 │   ├── fact-checker/
 │   ├── storyboard-planner/
+│   ├── visual-explainer-producer/
+│   ├── technical-diagram-designer/
+│   ├── render-qa/
 │   └── publishing-auditor/
 ├── schemas/
 │   ├── content-item.schema.json
@@ -242,9 +246,13 @@ Content must pass these gates before publication:
 7. **Technical gate:** audio, captions, framing, readability, and export are checked.
 8. **Human approval gate:** a person approves the final deliverable.
 
-See [Quality Gates](docs/quality-gates.md).
+See [Quality Gates](docs/quality-gates.md) and [Platform Research, Publishing and Account Safety](docs/platform-research-and-publishing.md).
 
-## 10. Research integrity and rights
+## 10. External architecture evaluation
+
+The [evaluated repository register](references/evaluated-repositories.md) records the 22 creator-workflow repositories reviewed, useful architecture patterns, licence/dependency notes, and adoption decisions. It is an evaluation register, not an installation list. In particular, do not adopt unofficial Instagram engagement bots, private API wrappers or scraping tools into the production workflow.
+
+## 11. Research integrity and rights
 
 - Prefer primary sources for direct factual claims.
 - Record publisher, title, URL, date, access date, and the claim supported.
@@ -255,13 +263,13 @@ See [Quality Gates](docs/quality-gates.md).
 - Do not commit API keys, credentials, private messages, customer data, or confidential files.
 - Follow the licence of every external repository or asset before reuse.
 
-## 11. What belongs in Git?
+## 12. What belongs in Git?
 
 **Keep in Git:** source code, Markdown, JSON/YAML schemas, prompts, agent skills, lightweight templates, small approved graphics, source logs, test fixtures without sensitive data, and documentation.
 
 **Keep outside ordinary Git:** raw footage, generated video masters, high-resolution audio, Resolve caches, proxies, large exports, private datasets, and credentials. Use local storage, external drives, or appropriate media/object storage. Git LFS may be considered for selected versioned media, but is not a substitute for a media archive strategy.
 
-## 12. Metrics and learning
+## 13. Metrics and learning
 
 Measure both audience response and editorial quality. Useful metrics include reach, retention, average view duration, completion, rewatch, saves, shares, meaningful comments, follower conversion, click-through, and returning viewers.
 
@@ -269,7 +277,7 @@ Do not optimise only for views. Review whether the content delivered its promise
 
 Experiments should record a hypothesis, variable, sample/time window, result, and decision. Avoid strong conclusions from tiny samples.
 
-## 13. Roadmap
+## 14. Roadmap
 
 ### Stage 1 — Foundation
 - Establish brand adapters and editorial boundaries.
@@ -298,7 +306,7 @@ Experiments should record a hypothesis, variable, sample/time window, result, an
 
 This is a capability roadmap, not a date-based promise. A stage is complete only when its deliverables work and have been reviewed.
 
-## 14. Guiding principles
+## 15. Guiding principles
 
 1. One shared engine; three distinct brands.
 2. Audience value before output volume.
