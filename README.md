@@ -8,7 +8,7 @@ This repository is the central operating layer for the three content brands:
 
 - [TECHENIGMASTUDIOS](https://github.com/worksomaganesh/techenigmastudios) — technology and AI education.
 - [AI That Works](https://github.com/worksomaganesh/aithatworks) — practical AI implementations and useful workflows.
-- [ContextAhead](https://github.com/worksomaganesh/contxtahead) — technology intelligence, context, and implications.
+- [CONTXT AHEAD](https://github.com/worksomaganesh/contxtahead) — technology intelligence, context, and implications.
 
 The purpose is not to generate the maximum number of posts. It is to build a repeatable system that helps produce distinctive, researched, accurate, visually strong content—with human editorial control.
 
@@ -51,12 +51,12 @@ The system should progressively move from documented manual workflows to reliabl
 |---|---|---|
 | TECHENIGMASTUDIOS | What is this technology, how does it work, and how can I learn it? | Education, explainers, tutorials, learning paths |
 | AI That Works | What practical problem can AI solve, and how does the working implementation perform? | Demonstrations, builds, workflows, case studies |
-| ContextAhead | Why does this development matter, what does it connect to, and what may change? | Context-rich analysis, timelines, industry explainers |
+| CONTXT AHEAD | Why does this development matter, what does it connect to, and what may change? | Context-rich analysis, timelines, industry explainers |
 
 **Example: AI agents**
 - TECHENIGMASTUDIOS explains agent concepts, architecture, tools, memory, and evaluation.
 - AI That Works builds and tests an agent that handles a defined business workflow.
-- ContextAhead examines how agents could affect software, business models, competition, and work.
+- CONTXT AHEAD examines how agents could affect software, business models, competition, and work.
 
 Do not recycle one script into three superficial variations. Each brand needs a distinct research question, evidence, narrative, and audience payoff.
 
