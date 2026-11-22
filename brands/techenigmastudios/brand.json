@@ -2,17 +2,50 @@
   "brand_id": "TES",
   "name": "TECHENIGMASTUDIOS",
   "repository": "https://github.com/worksomaganesh/techenigmastudios",
+  "tagline": "Decode. Understand. Build.",
   "language": "English",
   "presentation": "Faceless",
-  "editorial_role": "Technology and AI education",
-  "core_question": "What is this technology, how does it work, and how can I learn it?",
+  "editorial_role": "Technology education: explain what technology is, how it works, and how to learn or apply it.",
+  "core_question": "What is this technology, how does it work, and what should the learner understand or do next?",
+  "audience": [
+    "Students and beginners",
+    "Self-learners",
+    "Aspiring AI and ML engineers",
+    "Developers and technology professionals"
+  ],
   "established_palette": {
-    "yellow": "#FFD400",
-    "black": "#080808"
+    "black": "#000000",
+    "yellow": "#FFD400"
   },
+  "content_pillars": [
+    "Artificial Intelligence",
+    "Machine Learning",
+    "Generative AI",
+    "Data Science",
+    "Cybersecurity",
+    "Career Roadmaps",
+    "Deep Learning",
+    "Fine-Tuning",
+    "Feature Engineering"
+  ],
   "production": {
+    "presentation_style": "Faceless, narration-led, visual-first",
     "primary_editor": "DaVinci Resolve",
-    "motion_graphics": "Premium, educational, purposeful"
+    "ai_assisted_toolkit": [
+      "Google Gemini",
+      "Google Flow",
+      "Google Vids",
+      "Nano Banana"
+    ],
+    "motion_graphics": "Purposeful educational animation, diagrams, kinetic typography, and screen-recorded demonstrations"
   },
-  "notes": "Focus on foundations, AI/ML, GenAI, data science, cybersecurity, learning roadmaps, and developer workflows. Avoid becoming an AI-news repost account."
+  "editorial_rules": [
+    "Prioritise technical accuracy over virality.",
+    "Use original explanations, examples, diagrams, and demonstrations.",
+    "Record sources for factual claims.",
+    "Use market research to refine topic priority and presentation without abandoning the established niche.",
+    "Require human review before publication."
+  ],
+  "shared_operating_system": "https://github.com/worksomaganesh/Creator-OS",
+  "brand_strategy": "https://github.com/worksomaganesh/techenigmastudios"
 }
