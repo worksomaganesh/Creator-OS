@@ -11,6 +11,7 @@ Skills are focused instructions for repeatable tasks. Each defines purpose, inpu
 - `storyboard-planner/` — turn an approved script into scenes.
 - `visual-explainer-producer/` — coordinate a code-rendered educational explainer from a validated brief and production plan.
 - `technical-diagram-designer/` — select and specify a semantic diagram that fits the lesson and brand adapter.
+- `render-qa/` — inspect rendered frames, captions, audio, export metadata and rights before human approval.
 - `publishing-auditor/` — validate the final publishing package and human approval state.
 
 ## Skill rules
