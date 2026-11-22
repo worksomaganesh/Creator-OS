@@ -26,14 +26,25 @@
       "type": "string"
     },
     "frame_rate": {
-      "type": "number"
+      "type": "number",
+      "exclusiveMinimum": 0
     },
     "target_duration_seconds": {
       "type": "number",
       "minimum": 1
     },
+    "render_profile": {
+      "type": "string"
+    },
+    "voiceover_asset_id": {
+      "type": "string"
+    },
+    "human_approval_required": {
+      "type": "boolean"
+    },
     "scenes": {
       "type": "array",
+      "minItems": 1,
       "items": {
         "type": "object",
         "required": [
@@ -49,9 +60,27 @@
             "type": "integer",
             "minimum": 1
           },
-          "duration_seconds": {
+          "start_seconds": {
             "type": "number",
             "minimum": 0
+          },
+          "end_seconds": {
+            "type": "number",
+            "exclusiveMinimum": 0
+          },
+          "duration_seconds": {
+            "type": "number",
+            "exclusiveMinimum": 0
+          },
+          "render_mode": {
+            "enum": [
+              "remotion",
+              "html-gsap",
+              "screen-recording",
+              "generated-footage",
+              "editorial-footage",
+              "mixed"
+            ]
           },
           "narration": {
             "type": "string"
@@ -62,7 +91,16 @@
               "type": "string"
             }
           },
+          "caption_text": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
           "visual_direction": {
+            "type": "string"
+          },
+          "composition_notes": {
             "type": "string"
           },
           "asset_ids": {
@@ -79,6 +117,28 @@
           },
           "motion_notes": {
             "type": "string"
+          },
+          "transition_in": {
+            "type": "string"
+          },
+          "transition_out": {
+            "type": "string"
+          },
+          "continuity_notes": {
+            "type": "string"
+          },
+          "safe_area_notes": {
+            "type": "string"
+          },
+          "fallback_render_mode": {
+            "enum": [
+              "remotion",
+              "html-gsap",
+              "screen-recording",
+              "generated-footage",
+              "editorial-footage",
+              "mixed"
+            ]
           }
         },
         "additionalProperties": false
