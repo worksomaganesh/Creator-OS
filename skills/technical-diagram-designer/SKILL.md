@@ -1,7 +1,6 @@
 ---
 name: technical-diagram-designer
 description: Design accurate, readable, brand-consistent technical diagrams for technology education. Choose semantic structure before visual layout, and return editable SVG/HTML or renderer-ready specifications.
-license: MIT (Creator-OS skill)
 ---
 
 # Technical Diagram Designer
