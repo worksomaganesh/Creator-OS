@@ -1,19 +1,34 @@
 {
   "brand_id": "CA",
-  "name": "ContextAhead",
+  "name": "CONTXT AHEAD",
   "repository": "https://github.com/worksomaganesh/contxtahead",
   "language": "English",
-  "editorial_role": "Technology intelligence, context, and analysis",
-  "core_question": "Why does this development matter, what does it connect to, and what may change?",
-  "proposed_palette_not_locked": {
-    "violet": "#7657FF",
-    "midnight": "#151426",
-    "pale_lavender": "#EDE9FF",
-    "icy_blue": "#8DDCFF"
+  "market": "Global",
+  "editorial_role": "Technology intelligence and future-of-work context",
+  "core_question": "Why does this development matter, what does it connect to, who may be affected, and what should our audience understand next?",
+  "audience": {
+    "primary": ["Technology students", "Recent graduates", "Early-career technology professionals"],
+    "secondary": ["Working professionals navigating AI-related changes in their occupations"]
   },
+  "format": {
+    "faceless": true,
+    "human_on_camera_presenter": false,
+    "realistic_ai_human_presenter": false,
+    "language": "English",
+    "primary_narration": "Creator-recorded voice"
+  },
+  "tagline": "Understand the shift. Prepare for what's next.",
+  "pillars": [
+    {"name": "The Technology Shift", "allocation_percent": 25},
+    {"name": "The Future of Work", "allocation_percent": 25},
+    {"name": "Skills Ahead", "allocation_percent": 20},
+    {"name": "Opportunity Radar", "allocation_percent": 15},
+    {"name": "The Learning Shift", "allocation_percent": 15}
+  ],
   "production": {
     "primary_editor": "DaVinci Resolve",
-    "motion_graphics": "Premium, editorial, analytical"
+    "motion_graphics": "Premium editorial, analytical, and faceless",
+    "google_flow_role": "Optional supporting visual provider"
   },
-  "undecided": ["presenter_or_faceless_format", "final_palette", "editorial_scope"]
+  "decision_status": "Positioning and faceless format are established; audience, formats, visual identity, and content allocation continue to be validated through publishing experiments."
 }
