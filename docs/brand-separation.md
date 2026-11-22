@@ -22,7 +22,7 @@ Good angles:
 
 Avoid concept-only explainers with no practical task or implementation evidence.
 
-## ContextAhead
+## CONTXT AHEAD
 **Editorial job:** explain significance and connections.
 
 Good angles:
